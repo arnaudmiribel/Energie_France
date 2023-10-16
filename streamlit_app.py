@@ -3,13 +3,13 @@ from streamlit_option_menu import option_menu
 from PIL import Image
 
 ## Importing pages
-from content.introduction import introduction
-from content.exploration import exploration
-from content.preparation import preparation
-from content.visualisation import visualisation
-from content.modelisation import modelisation
-from content.conclusion import conclusion
-from content.ressources import ressources
+#from content.introduction import introduction
+#from content.exploration import exploration
+#from content.preparation import preparation
+#from content.visualisation import visualisation
+#from content.modelisation import modelisation
+#from content.conclusion import conclusion
+#from content.ressources import ressources
 
 ## Page title & favicon
 st.set_page_config(page_title = "Énergie France",
@@ -39,23 +39,23 @@ with st.sidebar:
     st.markdown('- Christophe NORET&nbsp;&nbsp;[<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width=25>](http://www.linkedin.com/in/cnoret)', unsafe_allow_html=True)
 
 ## Main Menu
-if choice == "Introduction":
-    introduction()
+#if choice == "Introduction":
+#    introduction()
 
-elif choice == "Exploration des données":
-    exploration()
+#elif choice == "Exploration des données":
+#    exploration()
 
-elif choice == "Préparation des données":
-    preparation()
+#elif choice == "Préparation des données":
+#    preparation()
 
-elif choice == "Analyses et visualisations":
-    visualisation()
+#elif choice == "Analyses et visualisations":
+#    visualisation()
 
-elif choice == "Modélisation et prédictions":
-    modelisation()
+#elif choice == "Modélisation et prédictions":
+#    modelisation()
 
-elif choice == "Conclusion":
-    conclusion()
+#elif choice == "Conclusion":
+#    conclusion()
 
 else:
     ressources()
