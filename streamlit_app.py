@@ -57,5 +57,5 @@ with st.sidebar:
 #elif choice == "Conclusion":
 #    conclusion()
 
-else:
-    ressources()
+#else:
+#    ressources()
